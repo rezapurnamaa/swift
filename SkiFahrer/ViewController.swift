@@ -20,6 +20,10 @@ class ViewController: UIViewController {
 
     @IBAction func moveSlider(_ sender: UISlider) {
         
+        let screenWidth = UIScreen.main.bounds.size.width
+        let skiFahrerWidth = skiFahrer.frame.width
+        let distance = screenWidth - skiFahrerWidth
+        skiFahrer.center.x = CGFloat(sender.value) * distance + skiFahrerWidth/2
     }
 
 }
