@@ -26,7 +26,7 @@
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ski" translatesAutoresizingMaskIntoConstraints="NO" id="UT6-JH-bd5">
-                                <frame key="frameInset" minX="143" minY="28" width="89" height="98"/>
+                                <frame key="frameInset" minX="143" minY="57" width="89" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
